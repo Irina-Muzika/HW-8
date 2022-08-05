@@ -1,4 +1,187 @@
-header {
+main {
   background-image: url(../img/Background.png);
-  height: 900px;
+}
+.col-h {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+  color: #111827;
+}
+
+.col-p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  font-feature-settings: "liga" off;
+  color: #374151;
+}
+
+.container {
+  --bs-gutter-x: 2.5rem !important;
+}
+
+.mt-lg-72 {
+  margin-top: 48px !important;
+}
+@media screen and (min-width: 768px) {
+  .mt-lg-72 {
+    margin-top: 80px !important;
+  }
+}
+@media screen and (min-width: 992px) {
+  .mt-lg-72 {
+    margin-top: 72px !important;
+  }
+}
+
+.block3-h {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  font-feature-settings: "liga" off;
+  color: #111827;
+  padding: 24px 0 8px;
+}
+
+.block3-p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  font-feature-settings: "liga" off;
+  color: #374151;
+}
+
+.block3-h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+  color: #111827;
+  margin-top: 96px !important;
+}
+@media screen and (min-width: 992px) {
+  .block3-h1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: -0.025em;
+    font-feature-settings: "liga" off;
+    color: #111827;
+  }
+}
+
+.block3-p1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  font-feature-settings: "liga" off;
+  color: #111827;
+  margin-bottom: 64px !important;
+}
+
+.flex {
+  display: flex;
+}
+
+.line-height {
+  line-height: 0;
+}
+
+.margin-top {
+  margin-top: 48px !important;
+}
+
+.fond-size-h {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  font-feature-settings: "liga" off;
+  color: #111827;
+}
+@media screen and (min-width: 768px) {
+  .fond-size-h {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: -0.025em;
+    font-feature-settings: "liga" off;
+    color: #111827;
+  }
+}
+@media screen and (min-width: 992px) {
+  .fond-size-h {
+    ont-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -0.025em;
+    font-feature-settings: "liga" off;
+    color: #111827;
+  }
+}
+
+.fond-size-p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-feature-settings: "liga" off;
+  color: #111827;
+}
+
+.block-5 {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .block-5 {
+    display: flex;
+  }
+}
+@media screen and (min-width: 992px) {
+  .block-5 {
+    display: flex;
+  }
+}
+
+.pad {
+  padding: 50px;
+}
+
+.f-14 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  font-feature-settings: "liga" off;
+  color: #111827;
 }/*# sourceMappingURL=style.css.map */
