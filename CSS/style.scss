@@ -105,6 +105,16 @@ margin-bottom: 64px !important;
 .margin-top{
   margin-top: 48px !important;
 }
+.w-320{
+width: 320px !important;
+}
+.ma{
+  @media screen and (min-width:0) and (max-width:992px){
+    margin: auto;
+  }
+    
+  
+}
 .fond-size-h{
   font-family: 'Inter';
 font-style: normal;
@@ -149,9 +159,9 @@ color: #111827;
 .block-5{
   display: flex;
   flex-direction: column;
-  @media screen and (min-width: 768px) {
+   
   display: flex;
-}
+
 @media screen and (min-width: 992px){
 display: flex;
 }
@@ -167,4 +177,75 @@ font-size: 14px;
 line-height: 20px;
 font-feature-settings: 'liga' off;
 color: #111827;
+}
+.margin{
+  padding-right: 790px;
+  @media screen and (min-width: 768px){
+  
+  }
+}
+.w-64{
+width: 64px !important;
+height: 64px !important;
+padding: 0 !important;
+@media screen and (min-width: 0) and (max-width: 992px) {
+  width: 40px !important;
+height: 40px !important;
+}
+}
+.bg-col{
+  background: #1DB5BE;
+ 
+}
+.p-112{
+  padding: 50px;    
+}
+.bg-black{
+  background-color: black;
+}
+.w-md{
+  width: 278px;
+  height: 119px;
+  @media screen and (min-width: 0) and (max-width: 768px){
+    width: 272px;
+  height: 117px;
+  text-align: center;}
+  @media screen and (min-width: 992px){
+    width: 448px;
+    height: 192px;
+  }
+    
+  
+  }
+.a-footer{
+  text-decoration: none;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #FFFFFF;
+
+}
+.p-footer{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+font-feature-settings: 'liga' off;
+color: #D1D5DB;
+}
+.a-font-size{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  font-feature-settings: 'liga' off;
+  color: #D1D5DB;
+  text-decoration: none;
+}
+.w-134{
+width: 134px;
+padding: 16px 0 8px 6px;
 }
