@@ -270,4 +270,18 @@ main {
 .w-134 {
   width: 134px;
   padding: 16px 0 8px 6px;
+}
+
+.width-logo {
+  width: 335px;
+}
+@media screen and (max-width: 768px) {
+  .width-logo {
+    width: 328px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .width-logo {
+    width: 540px;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -249,3 +249,12 @@ color: #D1D5DB;
 width: 134px;
 padding: 16px 0 8px 6px;
 }
+.width-logo{
+width: 335px;
+@media screen and (max-width: 768px){
+  width: 328px;
+}
+@media screen and (min-width: 992px){
+  width: 540px;
+}
+}
