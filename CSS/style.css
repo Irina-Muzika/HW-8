@@ -202,20 +202,11 @@ main {
 }
 .bg-aqua {
   background-color: #D5FAFC;
+}
+
+.bg-img {
   background-image: url(../img/logo\ bg\ big.svg);
   background-repeat: no-repeat;
-}
-@media screen and (max-width: 768px) {
-  .bg-aqua {
-    background-position: top 30px left 30px;
-  }
-}
-@media screen and (min-width: 992px) {
-  .bg-aqua {
-    background-position: top 30px left 10px;
-    background-size: auto auto;
-    background-position: top 30px left 100px;
-  }
 }
 
 .img-bg::before {
@@ -521,4 +512,18 @@ main {
   font-feature-settings: "liga" off;
   color: #FFFFFF;
   text-decoration: none;
+}
+
+.mb-100 {
+  margin-bottom: 50px;
+}
+@media screen and (min-width: 768px) {
+  .mb-100 {
+    margin-bottom: 100px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .mb-100 {
+    margin-bottom: 185px;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -201,17 +201,12 @@ width: 335px;
 
 .bg-aqua{
   background-color: #D5FAFC;
+  }
+
+
+.bg-img{
   background-image: url(../img/logo\ bg\ big.svg);
   background-repeat: no-repeat;
-  
-  @media screen and (max-width: 768px){
-    background-position: top 30px left 30px;
-  }
-  @media screen and (min-width: 992px){
-    background-position: top 30px left 10px;
-    background-size: auto auto;
-    background-position: top 30px left 100px;
-  }
 }
 
 .img-bg::before{
@@ -440,6 +435,7 @@ line-height: 40px;
 text-align: center;
 font-feature-settings: 'liga' off;
 color: #111827;
+
 }
 @media screen and (min-width: 992px){
   font-family: 'Inter';
@@ -482,4 +478,15 @@ text-decoration: none;
   font-feature-settings: 'liga' off;
   color: #FFFFFF;
   text-decoration: none;
+}
+.mb-100{
+  margin-bottom: 50px;
+
+  @media screen and (min-width: 768px){
+    margin-bottom: 100px;
+  }
+  @media screen and (min-width: 992px){
+    margin-bottom: 185px;
+  }
+
 }
